@@ -1,0 +1,32 @@
+mall:
+  module:
+    name: product
+    group: PRODUCT
+
+spring:
+  application:
+    name: ${mall.module.name}
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848 # 定义nacos注册中心的地址
+        namespace: guli_mall # 指定命名空间
+#        group: ${mall.module.group} # 指定分组
+      config:
+        server-addr: 127.0.0.1:8848 # 定义nacos配置中心的地址
+        prefix: ${mall.module.name} # 定义dataId的前缀
+        file-extension: yaml # 定义dataId的文件扩展名
+        namespace: guli_mall # 指定命名空间
+        group: ${mall.module.group} # 指定分组
+        # 用于共享的配置文件
+        shared-configs:
+          - data-id: common-orm.yaml
+            group: SHARED_GROUP
+
+
+
+
+
+
+
+
