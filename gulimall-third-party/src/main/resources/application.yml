@@ -1,11 +1,16 @@
-spring:
-  cloud:
-    alicloud:
-      access-key: LTAI4FwvfjSycd1APnuG9bjj
-      secret-key: O6xaxyiWfSIitcOkSuK27ju4hXT5Hl
-      oss:
-        endpoint: oss-cn-beijing.aliyuncs.com
-        bucket: gulimall-hello
-
-server:
-  port: 11100
+#spring:
+#  cloud:
+#    alicloud:
+#      access-key: LTAIdKJjoKz6G1U3
+#      secret-key: COoXw2r48L8wHPoWL1hMyRGdy2PZNCH
+#      oss:
+#        endpoint: oss-cn-shanghai.aliyuncs.com
+#        bucket: qiyuesuo-dev
+#
+#server:
+#  port: 11100
+#
+#
+#logging:
+#  level:
+#    c
