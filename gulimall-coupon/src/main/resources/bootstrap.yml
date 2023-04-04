@@ -11,7 +11,7 @@ spring:
       discovery:
         server-addr: 127.0.0.1:8848 # 定义nacos注册中心的地址
         namespace: guli_mall # 指定命名空间
-        group: ${mall.module.group} # 指定分组
+#        group: ${mall.module.group} # 指定分组
       config:
         server-addr: 127.0.0.1:8848 # 定义nacos配置中心的地址
         prefix: ${mall.module.name} # 定义dataId的前缀

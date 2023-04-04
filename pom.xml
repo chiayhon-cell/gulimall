@@ -23,6 +23,9 @@
         <!--    业务项目    -->
         <module>gulimall-coupon</module>
         <module>gulimall-product</module>
+        <module>gulimall-third-party</module>
+
+
         <module>renren-fast</module>
 
 
